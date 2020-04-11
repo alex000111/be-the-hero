@@ -17,7 +17,7 @@ export default function Profile() {
   const ongName = localStorage.getItem('ongName');
 
   useEffect(() => {
-    api.get('prfoile', {
+    api.get('profile', {
       headers: {
         Authorization: ongId,
       }
